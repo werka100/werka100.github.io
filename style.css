@@ -1,0 +1,73 @@
+body {
+	background-color: navy;
+	background: url(bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: helvetica;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+}
+.main {
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 10 px 10 px white;
+	max-width: 600px;
+	margin:0 auto;
+	padding: 20px;
+	border-radius: 5%;
+
+}
+h1 {
+	font-family: 'Arima Madurai', cursive;
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 150 px;
+}
+h2 {
+	font-family: 'Arima Madurai', cursive;
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+
+}
+h3 {
+	margin-top: 0;
+	cursor: pointer;
+}
+h3:hover {
+	text-decoration: underline;
+}
+
+.js h3 + * {
+	display: none;
+}
+
+img {
+	border: 10px solid black;
+	border-radius: 50% 0 50% 25%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+p,
+ul,
+ol {line-height: 1.5;
+	list-style: none;
+	padding-left: 0;
+}
+a {
+	color: salmon;
+	transition: color 1s;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: navy;
+	text-decoration: underline;
+
+}
+.giraffe {
+	text-align: center;
+}
+}
